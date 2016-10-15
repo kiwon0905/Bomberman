@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{8931693d-2321-48e0-aa35-faab8bb26ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AudioManager">
+      <UniqueIdentifier>{af8a35d1-49de-4969-a1a1-e1f9a8aa6741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{af5287cd-f9f0-4046-98a1-93f882f981a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Resource">
+      <UniqueIdentifier>{52ee5e21-6154-484c-8837-c5f4426b3115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Manager">
+      <UniqueIdentifier>{ec2fe516-f2be-410c-a56b-5cc42751fa22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{c274ef0a-2cb3-4c0c-a0ca-0ac3801c5251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{12e6cec8-7833-45b5-b362-c072f66844a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\FSM">
+      <UniqueIdentifier>{c7cefc0d-fcbb-458f-aa88-13a05fba260c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Timer">
+      <UniqueIdentifier>{b78f2e19-2e76-40c9-b4ad-3ca05c44a5bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game World">
+      <UniqueIdentifier>{5a4bbe26-3cf2-4f8f-9ea5-da4969bcefff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine">
+      <UniqueIdentifier>{5951cf0b-0df7-45e3-b540-1fdb846674db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\GameStates">
+      <UniqueIdentifier>{8deb73ee-15c8-4f21-a116-3af152243765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game Objects">
+      <UniqueIdentifier>{84c1fb78-4233-4a7d-bfe0-d195c600380b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game Objects\Entities">
+      <UniqueIdentifier>{29782dc3-cf5c-4b91-945e-0eecb6fe9701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Animation">
+      <UniqueIdentifier>{5a0b3fff-d1c6-4d86-ba32-962bb8203f33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\GUI">
+      <UniqueIdentifier>{34f6d448-1b62-4b60-a130-4240d3d5000b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicResource.cpp">
+      <Filter>Resources\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundResource.cpp">
+      <Filter>Resources\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureResource.cpp">
+      <Filter>Resources\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="FontResource.cpp">
+      <Filter>Resources\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMenuState.cpp">
+      <Filter>GameEngine\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlayingState.cpp">
+      <Filter>GameEngine\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld.cpp">
+      <Filter>Game\Game World</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Game\Game World</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMap.cpp">
+      <Filter>Game\Game World</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Tools\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Game\Game Objects\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Game\Game Objects\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>Game\Game Objects\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities.cpp">
+      <Filter>Game\Game Objects\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Tools\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSettingState.cpp">
+      <Filter>GameEngine\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCreditState.cpp">
+      <Filter>GameEngine\GameStates</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Resources\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicResourceManager.h">
+      <Filter>Resources\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Resources\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicResource.h">
+      <Filter>Resources\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundResourceManager.h">
+      <Filter>Resources\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundResource.h">
+      <Filter>Resources\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureResourceManager.h">
+      <Filter>Resources\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureResource.h">
+      <Filter>Resources\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="FontResourceManager.h">
+      <Filter>Resources\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="FontResource.h">
+      <Filter>Resources\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Tools\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>Tools\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMenuState.h">
+      <Filter>GameEngine\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlayingState.h">
+      <Filter>GameEngine\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Game\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="FPS.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Tools\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld.h">
+      <Filter>Game\Game World</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Game\Game World</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMap.h">
+      <Filter>Game\Game World</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Tools\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Game\Game Objects\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Game\Game Objects\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Game\Game Objects\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>Game\Game Objects\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityType.h">
+      <Filter>Game\Game Objects\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Tools\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSettingState.h">
+      <Filter>GameEngine\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCreditState.h">
+      <Filter>GameEngine\GameStates</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

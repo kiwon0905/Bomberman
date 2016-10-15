@@ -1,0 +1,2 @@
+#pragma once
+enum class EntityType{PERMANENT_BLOCK, SEMIPERMANENT_BLOCK, CHARACTER, ITEM, BOMB, NOTHING};
